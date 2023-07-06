@@ -1,0 +1,92 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.FifthChild
+{
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 10px 13px;
+  position:absolute;
+  overflow: hidden;
+}
+.FifthPage
+{
+  height:450px;
+  width: 700px;
+  background: rgba(255,255,255);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.pageDetails
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 23px;
+  gap: 10px;
+}
+.logo-heading{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: rgb(107, 220, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-heading .icon{
+  color: aliceblue;
+  font-size: 30px;
+}
+.Bank-icon{
+  height: 50px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.Bank-icon img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+.pageDetails p{
+  padding: 10px 13px;
+}
+.Backbtn
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 70px;
+  right: -250px;
+  top: 30px;
+  border: none;
+  background-color: #e415c5;
+  color: rgba(255,255,255);
+  border-radius: 5px;
+}
+.Backbtn button {
+  padding: 10px 7px;
+  height: 100%;
+  width: 100%;
+}

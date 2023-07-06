@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position:absolute;
+  overflow: hidden;
+}
+.childContainer
+{
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contents
+{
+  height:450px;
+  width: 700px;
+  background: rgba(255,255,255);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.title
+{
+padding: 10px 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title span{
+  position: relative;
+  top: 0;
+  right: -43%;
+}
+.InputBox
+{
+  display: flex;
+  justify-self: flex-start;
+  margin-top: 15px;
+  padding: 15px 20px;
+  font-size: 18px;
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.box-content
+{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap :5px;
+  margin-bottom: 5px;
+}
+.circle{
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 4px solid rgb(244, 244, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inner-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(56, 100%, 46%);
+  height: 22px;
+  width: 22px;
+  border-radius: 50px;
+  padding: 2px;
+}
+.inner-circle .icon{
+font-size: 9px;
+color: rgb(242, 240, 240);
+z-index: 10;
+}
+.money{
+  font-size: 18px;
+  font-weight: 300;
+}
+.buttonContainer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 3%;
+  row-gap: 5px;
+  column-gap: 5px;
+  margin-bottom: 3%;
+}
+.buttonContainer button{
+ padding: 15px 8px;
+ border: none;
+ font-size: 18px;
+ font-weight: 400;
+}
+.btn-icon{
+  font-size: 25px;
+  position: relative;
+  transform: rotate(90deg);
+}
+.secondTitle{
+  position: relative;
+  padding: 4px 6px;
+  font-size: 17px;
+  left: -5px;
+  top: 0;
+}
+.btn-Reachare
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 2%;
+}
+.Text{
+  position: relative;
+  color: var(--dark);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SubmitBtn{
+  padding: 10px 15px;
+  border: none;
+  width: 95%;
+  font-size: 15px;
+  color: rgb(87, 84, 84);
+  border-radius: 5px;
+}
+.active{
+  background-color: var(--darkpink );
+  color: rgb(255, 255, 255);
+}

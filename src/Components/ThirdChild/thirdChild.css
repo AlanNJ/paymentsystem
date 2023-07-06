@@ -1,0 +1,65 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ThirdChild
+{
+  position: absolute;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position:absolute;
+  overflow: hidden;
+}
+.Third-container
+{
+  height:450px;
+  width: 700px;
+  background: rgba(255,255,255);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.GiStandsofTimeicon
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:70px ;
+  width: 70px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.GiStandsofTimeicon .icon {
+  font-size: 40px;
+}
+.big_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.Content_heading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  width: 100%;
+  padding: 10px 13px;
+  gap: 20px;
+}
+.Time_Container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}

@@ -1,0 +1,66 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ForthChild
+{
+  position: absolute;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position:absolute;
+  overflow: hidden;
+}
+.ForthPage
+{
+  height:450px;
+  width: 700px;
+  background: rgba(255,255,255);
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(228, 21, 197, 0.8);
+  border-radius: 50px;
+  animation: move 2s infinite linear;
+}
+
+.first_dot {
+  left: 50%;
+  transform: translateX(-60%);
+}
+
+.second_dot {
+  left: 50%;
+  transform: translateX(-60%);
+  background-color: rgba(7, 182, 251, 0.8);
+  animation-delay: 1s;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

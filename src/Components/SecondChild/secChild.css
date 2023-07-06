@@ -1,0 +1,146 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Second_Child
+{
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position:absolute;
+  overflow: hidden;
+}
+.Second-Container
+{
+  height:450px;
+  width: 700px;
+  background: rgba(255,255,255);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.header {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 3%;
+  border-bottom:1px solid rgba(0, 0, 0, 0.3) ;
+}
+.header span{
+ position: relative;
+ left: -210px;
+ top: 14px;
+ display: block;
+}
+.Acc_name{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.Acc_name p {
+  font-size: 17px;
+  font-weight: bold;
+}
+.Total-coins
+{ 
+  margin-top: 5px;
+  margin-bottom:5%;
+  display: flex;
+  justify-content: space-between;
+}
+.Total-coins p {
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.Bank-details{
+ position: relative;
+ width: 100%;
+}
+.Bank-details span {
+ font-size: 17px;
+ margin-bottom: 50px;
+ width: 100%;
+}
+.img-Container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: -20px;
+  left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.small-contents {
+  height:100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 3%;
+}
+.small-contents input[type='radio'] {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  position: relative;
+  top: -8px;
+  outline: none;
+  }
+  .secondTitle{
+    position: relative;
+    padding: 4px 6px;
+    font-size: 17px;
+    left: -5px;
+    top: 0;
+  }
+  .btn-Reachare
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 2%;
+}
+.Text{
+  position: relative;
+  color: var(--dark);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SubmitBtn{
+  padding: 10px 15px;
+  border: none;
+  width: 95%;
+  font-size: 15px;
+  color: rgb(87, 84, 84);
+  border-radius: 5px;
+}
+.active{
+  background-color: var(--darkpink );
+  color: rgb(255,255,255,.789);
+}
+.title{
+  border: none;
+  outline: none;
+}
